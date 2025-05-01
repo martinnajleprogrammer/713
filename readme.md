@@ -1,0 +1,16 @@
+- recuperar usuario github
+- actualizar pizzas, postres
+- mejorar estilos, imagenes
+- github repo
+- mejorar url
+- hotel
+- ortopedia
+- mercha
+- animate
+- alarma/corazon/mano
+- assist card
+- gasista
+- valija
+- UR
+- dni
+- barrilito
