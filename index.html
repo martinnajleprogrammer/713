@@ -35,6 +35,9 @@
     }
 
     .categoria {
+      display: flex;
+      flex-direction: column;
+      float: 1;
       background-color: black;
       opacity: 0.8;
       border: 1px solid #333;
@@ -65,6 +68,12 @@
       padding-bottom: 5px;
       border-bottom: 1px dotted #444;
       font-size: 1em;
+    }
+
+    .item {
+      flex-direction: row;
+      display: flex;
+      align-items: center;
     }
 
     .item img {
@@ -183,71 +192,158 @@
     </ul>
   </div>
 
+
   <div class="categoria">
     <h3>🍟 Papas</h3>
     <ul>
       <li>
-        <h4>Clásicas</h4><span>$12000</span>
+        <h4>Clásicas </h4><span>$12000</span></h4>
       </li>
-      <ul>
-        <li>
-          <div class="item">
-            <img src="icons/bison.webp" alt="Bison Icon" width="30">
-            <p>Bison: Porcion de papas fritas abundantes.</p>
-          </div>
-        </li>
-      </ul>
       <li>
-        <h4>Especiales</h4><span>$13000</span>
+        <div class="item">
+          <img src="icons/bison.webp" alt="Bison Icon" width="30">
+          <p>Bison: Porción de papas fritas abundantes.</p>
+        </div>
       </li>
-      <ul>
-        <li>
-          <div class="item">
-            <img src="icons/guile.gif" alt="Guille Icon" width="30">
-            <p>Guille: Salsa de mozzarella, burger de pollo y morron dulce.</p>
-          </div>
-        </li>
-        <li>
-          <div class="item">
-            <img src="icons/blanka.png" alt="Blanka Icon" width="30">
-            <p>Blanka: Panceta crocante, cebolla de verdeo y salsa cheddar.</p>
-          </div>
-        </li>
-        <li>
-          <div class="item">
-            <img src="icons/honda.gif" alt="Honda Icon" width="30">
-            <p>Honda: Salsa de tomate, salsa de mozzarella, queso azul y provoleta.</p>
-          </div>
-        </li>
-        <li>
-          <div class="item">
-            <img src="icons/ken.png" alt="Ken Icon" width="30">
-            <p>Ken: Salsa de mozzarella, tomate confitado, albahaca, aceitunas y oliva.</p>
-          </div>
-        </li>
-        <li>
-          <div class="item">
-            <img src="icons/ryu.png" alt="Ryu Icon" width="30">
-            <p>Ryu: Salsa de mozzarella, jamon cocido, morron y huevo.</p>
-          </div>
-        </li>
-        <li>
-          <div class="item">
-            <img src="icons/chun-li.png" alt="Chun-li Icon" width="30">
-            <p>Chun-li: Salsa de mozzarella y salame.</p>
-          </div>
-        </li>
-      </ul>
+      </li>
+
+      <li>
+        <h4>Especiales</h4> <span>$13000</span></h4>
+      <li>
+        <div class="item">
+          <img src="icons/guile.gif" alt="Guille Icon" width="30">
+          <p>Guille: Salsa de mozzarella, burger de pollo y morrón dulce.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/blanka.png" alt="Blanka Icon" width="30">
+          <p>Blanka: Panceta crocante, cebolla de verdeo y salsa cheddar.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/honda.gif" alt="Honda Icon" width="30">
+          <p>Honda: Salsa de tomate, mozzarella, queso azul y provoleta.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/ken.png" alt="Ken Icon" width="30">
+          <p>Ken: Mozzarella, tomate confitado, albahaca, aceitunas y oliva.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/ryu.png" alt="Ryu Icon" width="30">
+          <p>Ryu: Mozzarella, jamón cocido, morrón y huevo.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/chun-li.png" alt="Chun-li Icon" width="30">
+          <p>Chun-li: Mozzarella y salame.</p>
+        </div>
+      </li>
     </ul>
   </div>
+
 
 
   <div class="categoria">
     <h3>🍔 Hamburguesas</h3>
     <ul>
       <li>Clásicas <span>$15500</span></li>
+      <li>
+        <div class="item">
+          <img src="icons/venom.gif" alt="Icon" width="50">
+          <p>Venom: Burger, cebolla, provoleta y tomate.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/spiderman.gif" alt="Icon" width="50">
+          <p>Spiderman: Burger, cheddar, panceta y cebolla de verdeo.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/wolverine.png" alt="Icon" width="50">
+          <p>Wolverine: Burger, jamón, mozzarella, morrón dulce y huevo.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/capitana.png" alt="Icon" width="50">
+          <p>Capitana Marvel: Burger, mozzarella, tomate, lechuga y ciboulette.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/deadpool.png" alt="Icon" width="50">
+          <p>Deadpool: Burger, cheddar, american ketchup Kansas, tomate y salsa picante.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/nick.png" alt="Icon" width="50">
+          <p>Nick Fury: Burger, mozzarella, queso azul y american ketchup Kansas.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/strange.gif" alt="Icon" width="50">
+          <p>Dr. Strange: Burger, mozzarella, tomate confitado, albahaca y aceitunas.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/rocket.png" alt="Icon" width="50">
+          <p>Rocket: queso crema, rucula y panceta.</p>
+        </div>
+      </li>
       <li>Triples <span>$17000</span></li>
+      <li>
+        <div class="item">
+          <img src="icons/hulk.gif" alt="Icon" width="50">
+          <p>Hulk: Burger, cheddar, panceta y cebolla caramelizada.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/capitan.webp" alt="Icon" width="50">
+          <p>Capitan America: Burger, american ketchup Kansas, mozzarella, jamón y morrón dulce.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/iron.png" alt="Icon" width="50">
+          <p>Iron Man: Burger, jamón, provoleta, tomate, lechuga y cebolla caramelizada.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/thor.png" alt="Icon" width="50">
+          <p>Thor: Burger, manteca de ajo, cheddar, panceta y cebolla caramelizada.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/stan.gif" alt="Icon" width="50">
+          <p>Stan Lee: Burger y cebolla caramelizada.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/thanos.png" alt="Icon" width="50">
+          <p>Thanos: Burger, doble cheddar.</p>
+        </div>
+      </li>
       <li>Veggie <span>$14000</span></li>
+      <div class="item">
+        <img src="icons/vegeta.png" alt="Icon" width="50">
+        <p>Hamburguesa opcion vegetariana.</p>
+      </div>
     </ul>
     <ul>
 
@@ -257,29 +353,121 @@
   <div class="categoria">
     <h3>🍕 Pizzas</h3>
     <ul>
-      <li>Clásicas <span>$16000</span>
-        <ul></ul>
+      <li>
+        <h4>Clásicas</h4><span>$16000</span>
       </li>
-      <li>Especiales <span>$18500</span>
-        <ul></ul>
+      <li>
+        <div class="item">
+          <img src="icons/tetris.gif" alt="Tetris Icon" width="40">
+          <p>Tetris: Salsa de tomate, mozzarella y aceitunas.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="icons/ark.gif" alt="Arkanoid Icon" width="40">
+          <p>Arkanoid: Mozzarella, cebolla, manteca de ajo y aceitunas.</p>
+        </div>
+      </li>
+      </li>
+      <li>
+        <h4>Especiales</h4><span>$18500</span>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/metal.webp" alt="Metal slug icon" width="40">
+          <p>Metal Slug: Salsa de tomate, mozzarella, jamón, morrón dulce y aceitunas.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/bomber.gif" alt="Bomber icon" width="40">
+          <p>Bomberman: Pizza bomba, sabrosa, salsa de tomate, mozzarella, panceta, huevos fritos y aceitunas.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/simpsons.gif" alt="" width="40">
+          <p>Simpsons: Salsa de tomate, mozzarella, queso azul, provoleta, cheddar y aceitunas.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/sunset.jpeg" alt="" width="40">
+          <p>Sunset Riders: Manteca de ajo, mozzarella, panceta, provoleta y aceitunas.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/mario.gif" alt="" width="40">
+          <p>Mario Bros: Salsa de tomate, mozzarella, tomate, albahaca, ajo, oliva y aceitunas.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/luigi.gif" alt="" width="40">
+          <p>Luigi: Salsa de tomate, mozzarella, tomate confitado albahaca y aceitunas.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/space.gif" alt="" width="40">
+          <p>Space Invaders: Salsa de tomate, mozzarella, pollo, tomate confitado, y rucula.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/donkey.webp" alt="" width="40">
+          <p>Donkey Kong: Salsa de tomate, cheddar y burger (opcional).</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/pacman.gif" alt="" width="40">
+          <p>Pacman: Salsa de tomate, mozzarella, papas fritas, huevo y aceitunas.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/1942.gif" alt="" width="40">
+          <p>1942: Salsa de tomate, mozzarella, salame y aceitunas.</p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/golden.png" alt="" width="40">
+          <p>Golden Axe: Manteca de ajo, provoleta, jamón cocido, morrón dulce y aceitunas. </p>
+        </div>
+      </li>
+      <li>
+        <div class="item">
+          <img src="./icons/wonder.gif" alt="" width="40">
+          <p>Wonder Boy: Manteca de ajo, panceta, mozzarella, cebolla y queso azul.</p>
+        </div>
       </li>
     </ul>
   </div>
-
   <div class="categoria">
     <h3>🎮 Bonus Point</h3>
     <ul>
-      <li>Jessica Jones, Double Dragon, Torta del Chavo <span>$14500</span></li>
+      <li>Empanadas: carne, pollo y jamon y queso. <span>Cada una: $.</span><span>Docena: $.</span></li>
+
     </ul>
   </div>
 
   <div class="categoria">
-    <h3>🥳 Picadas</h3>
+    <h3>🥳 Picadas Artesanales</h3>
+    <p>
+      Una selección premium de sabores: salames tandileros (picado fino, grueso y colorado), jamón cocido,
+      quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas,
+      morrón dulce y pan casero.
+    </p>
+
     <ul>
-      <li>Para 2 <span>$14500</span></li>
-      <li>Para 4 <span>$16000</span></li>
+      <li><strong>Para 2 personas:</strong> <span>$14.500</span></li>
+      <li><strong>Para 4 personas:</strong> <span>$16.000</span></li>
     </ul>
   </div>
+
 
   <div class="categoria">
     <h3>🍴 Tapeo</h3>
