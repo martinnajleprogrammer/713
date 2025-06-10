@@ -1,0 +1,118 @@
+ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+ .menu {
+    h1,
+    h2 {
+      font-family: 'Press Start 2P', cursive;
+      color: #00ffe7;
+      text-align: center;
+      margin-bottom: 0.5em;
+    }
+
+    h2 {
+      font-size: 1em;
+      color: #ff00cc;
+    }
+
+    .special {
+      border-radius: 50% 60%;
+      background-color: white;
+      padding: 2.5px 1px;
+      margin: auto;
+      color: #111;
+    }
+
+    .category {
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      opacity: 0.8;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 30px;
+      box-shadow: 0 0 10px #00ffe788;
+    }
+
+    h3 {
+      color: #ff4081;
+      font-size: 1.2em;
+      border-bottom: 1px solid #555;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+      border-bottom: 1px dotted #444;
+      font-size: 1em;
+    }
+
+    .item {
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+    }
+
+    .item img {
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    .item p {
+      margin: 0;
+      flex: 1;
+    }
+
+    h4 {
+      margin: 0;
+      font-size: 1em;
+      color: #00d9ff;
+    }
+
+    span {
+      font-weight: bold;
+      color: #fff200;
+      margin-left: 10px;
+    }
+
+    .foodname {
+      font-weight: 800;
+      margin-right: 2px;
+      color: white;
+    }
+    
+    @media (max-width: 600px) {
+      li {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      span {
+        margin-left: 0;
+      }
+
+      .menu {
+        background-size: auto;
+      }
+
+      li {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      span {
+        margin-left: 0;
+      }
+     
+    }
+  }

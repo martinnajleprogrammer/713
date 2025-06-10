@@ -1,0 +1,340 @@
+{
+  "menu": [
+    {
+      "category": "🍻 Happy Hour",
+      "items": [
+        { "name": "Clásicas", "price": 2500 }
+      ]
+    },
+    {
+      "category": "🍺 Cervezas - Pinta/Lata",
+      "items": [
+        { "name": "Clásicas", "price": 4800 },
+        { "name": "Lupuladas", "price": 5100 },
+        { "name": "Especiales", "price": 5400 }
+      ]
+    },
+    {
+      "category": "🍺 Cerveza - Media Pinta",
+      "items": [
+        { "name": "Clásicas", "price": 4400 },
+        { "name": "Lupuladas", "price": 4700 },
+        { "name": "Especiales", "price": 5000 }
+      ]
+    },
+    {
+      "category": "🍻 Botellón y Barril",
+      "items": [
+        { "name": "Botellón Clásicos", "price": 16000 },
+        { "name": "Botellón Lupuladas", "price": 20000 },
+        { "name": "Botellón Especiales", "price": 24000 },
+        { "name": "PET", "price": 1000 },
+        { "name": "Barril Clásicos", "price": 8000, "unidad": "L" },
+        { "name": "Barril Lupuladas", "price": 10000, "unidad": "L" },
+        { "name": "Barril Especiales", "price": 12000, "unidad": "L" }
+      ]
+    },
+    {
+      "category": "Sin Alcohol y Energizantes",
+      "items": [
+        { "name": "Agua / Saborizadas / Gaseosas", "price": 2500 },
+        { "name": "Monster", "price": 5300 }
+      ]
+    },
+    {
+      "category": "Tragos",
+      "items": [
+        { "name": "Fernet, Gancia, Campari, Cuba Libre, Destornillador, Daiquiri, Vermut", "price": 5800 },
+        { "name": "Negroni, Mojito", "price": 6600 },
+        { "name": "Caipiroska, Gin Tonic", "price": 6100 },
+        { "name": "Gin Tonic (Frutos Rojos)", "price": 6100 },
+        { "name": "Gin Tonic (Tanqueray)", "price": 7100 },
+        { "name": "Vino Lata", "price": 6100 },
+        { "name": "Vino Botella", "price": 8600 },
+        { "name": "Tequila", "price": 8600 },
+        { "name": "Whisky White Horse", "price": 9600 },
+        { "name": "Whisky JB Black", "price": 11100 }
+      ]
+    },
+   {
+  "category": "Papas",
+  "subcategories": [
+    {
+      "name": "Clásicas",
+      "price": 12000,
+      "items": [
+        {
+          "image": "bison.webp",
+          "name": "Bison",
+          "description": "Porción de papas fritas abundantes."
+        }
+      ]
+    },
+    {
+      "name": "Especiales",
+      "price": 13000,
+      "items": [
+        {
+          "name": "713",
+          "description": "Papas gruesas con el toque justo de provenzal. Unas papas distintas con un estilo gamer argento."
+        },
+        {
+          "image": "guile.gif",
+          "name": "Guille",
+          "description": "Salsa de mozzarella, burger de pollo y morrón dulce."
+        },
+        {
+          "image": "blanka.png",
+          "name": "Blanka",
+          "description": "Panceta crocante, cebolla de verdeo y salsa cheddar."
+        },
+        {
+          "image": "honda.gif",
+          "name": "Honda",
+          "description": "Salsa de tomate, mozzarella, queso azul y provoleta."
+        },
+        {
+          "image": "ken.png",
+          "name": "Ken",
+          "description": "Mozzarella, tomate confitado, albahaca, aceitunas y oliva."
+        },
+        {
+          "image": "ryu.png",
+          "name": "Ryu",
+          "description": "Mozzarella, jamón cocido, morrón y huevo."
+        },
+        {
+          "image": "chun-li.png",
+          "name": "Chun-li",
+          "description": "Mozzarella y salame."
+        }
+      ]
+    }
+  ]
+},
+  {
+  "category": "Hamburguesas",
+  "subcategories": [
+    {
+      "name": "Veggie",
+      "price": 14000,
+      "items": [
+        {
+          "name": "Veggie",
+          "description": "Hamburguesa opción vegetariana."
+        }
+      ]
+    },
+    {
+      "name": "Dobles",
+      "price": 15500,
+      "items": [
+        {
+          "name": "Venom",
+          "image": "venom.gif",
+          "description": "Burger, cebolla, provoleta y tomate."
+        },
+        {
+          "name": "Spiderman",
+          "image": "spiderman.gif",
+          "description": "Burger, cheddar, panceta y cebolla de verdeo."
+        },
+        {
+          "name": "Wolverine",
+          "image": "wolverine.png",
+          "description": "Burger, jamón, mozzarella, morrón dulce y huevo."
+        },
+        {
+          "name": "Capitana Marvel",
+          "image": "capitana.png",
+          "description": "Burger, mozzarella, tomate, lechuga y ciboulette."
+        },
+        {
+          "name": "Deadpool",
+          "image": "deadpool.png",
+          "description": "Burger, cheddar, american ketchup Kansas, tomate y salsa picante."
+        },
+        {
+          "name": "Nick Fury",
+          "image": "nick.png",
+          "description": "Burger, mozzarella, queso azul y american ketchup Kansas."
+        },
+        {
+          "name": "Dr. Strange",
+          "image": "strange.gif",
+          "description": "Burger, mozzarella, tomate confitado, albahaca y aceitunas."
+        },
+        {
+          "name": "Rocket",
+          "image": "rocket.png",
+          "description": "Queso crema, rúcula y panceta."
+        }
+      ]
+    },
+    {
+      "name": "Triples",
+      "price": 17000,
+      "items": [
+        {
+          "name": "Hulk",
+          "image": "hulk.gif",
+          "description": "Burger, cheddar, panceta y cebolla caramelizada."
+        },
+        {
+          "name": "Capitan America",
+          "image": "capitan.webp",
+          "description": "Burger, american ketchup Kansas, mozzarella, jamón y morrón dulce."
+        },
+        {
+          "name": "Iron Man",
+          "image": "iron.png",
+          "description": "Burger, jamón, provoleta, tomate, lechuga y cebolla caramelizada."
+        },
+        {
+          "name": "Thor",
+          "image": "thor.png",
+          "description": "Burger, manteca de ajo, cheddar, panceta y cebolla caramelizada."
+        },
+        {
+          "name": "Stan Lee",
+          "image": "stan.gif",
+          "description": "Burger y cebolla caramelizada."
+        },
+        {
+          "name": "Thanos",
+          "image": "thanos.png",
+          "description": "Burger, doble cheddar."
+        }
+      ]
+    }
+  ]
+},
+    {
+  "category": "Pizzas",
+  "subcategories": [
+    {
+      "name": "Clásicas",
+      "price": 16000,
+      "items": [
+        {
+          "name": "Tetris",
+          "description": "Salsa de tomate, mozzarella y aceitunas.",
+          "image": "tetris.gif"
+        },
+        {
+          "name": "Arkanoid",
+          "description": "Mozzarella, cebolla, manteca de ajo y aceitunas.",
+          "image": "ark.gif"
+        }
+      ]
+    },
+    {
+      "name": "Especiales",
+      "price": 18500,
+      "items": [
+        {
+          "name": "Metal Slug",
+          "description": "Salsa de tomate, mozzarella, jamón, morrón dulce y aceitunas.",
+          "image": "metal.webp"
+        },
+        {
+          "name": "Bomberman",
+          "description": "Pizza bomba, sabrosa, salsa de tomate, mozzarella, panceta, huevos fritos y aceitunas.",
+          "image": "bomber.gif"
+        },
+        {
+          "name": "Simpsons",
+          "description": "Salsa de tomate, mozzarella, queso azul, provoleta, cheddar y aceitunas.",
+          "image": "simpsons.gif"
+        },
+        {
+          "name": "Sunset Riders",
+          "description": "Manteca de ajo, mozzarella, panceta, provoleta y aceitunas.",
+          "image": "sunset.jpeg"
+        },
+        {
+          "name": "Mario Bros",
+          "description": "Salsa de tomate, mozzarella, tomate, albahaca, ajo, oliva y aceitunas.",
+          "image": "mario.gif"
+        },
+        {
+          "name": "Luigi",
+          "description": "Salsa de tomate, mozzarella, tomate confitado, albahaca y aceitunas.",
+          "image": "luigi.gif"
+        },
+        {
+          "name": "Space Invaders",
+          "description": "Salsa de tomate, mozzarella, pollo, tomate confitado y rúcula.",
+          "image": "space.gif"
+        },
+        {
+          "name": "Donkey Kong",
+          "description": "Salsa de tomate, cheddar y burger (opcional).",
+          "image": "donkey.webp"
+        },
+        {
+          "name": "Pacman",
+          "description": "Salsa de tomate, mozzarella, papas fritas, huevo y aceitunas.",
+          "image": "pacman.gif"
+        },
+        {
+          "name": "1942",
+          "description": "Salsa de tomate, mozzarella, salame y aceitunas.",
+          "image": "1942.gif"
+        },
+        {
+          "name": "Golden Axe",
+          "description": "Manteca de ajo, provoleta, jamón cocido, morrón dulce y aceitunas.",
+          "image": "golden.png"
+        },
+        {
+          "name": "Wonder Boy",
+          "description": "Manteca de ajo, panceta, mozzarella, cebolla y queso azul.",
+          "image": "wonder.gif"
+        }
+      ]
+    }
+  ]
+},
+    {
+      "category": "Bonus Point",
+      "items": [
+        { "name": "Empanadas", "description": "Carne, pollo y jamón y queso.", "price": { "unidad": 0, "docena": 0 } }
+      ]
+    },
+    {
+      "category": "Picadas Artesanales",
+      "description": "Una selección premium de sabores: salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero.",
+      "items": [
+        { "name": "Para 2 personas", "price": 15000 },
+        { "name": "Para 4 personas", "price": 20000 }
+      ]
+    },
+    {
+      "category": "Tapeo",
+      "items": [
+        { "name": "Rabas", "price": 14500 },
+        { "name": "Aros de cebolla", "price": 14000 },
+        { "name": "Bastones de Pollo", "price": 14000 },
+        { "name": "Bastones de Queso", "price": 13000 }
+      ]
+    },
+    {
+      "category": "Postres",
+      "disabled": true,
+      "items": [
+        { "name": "Chocolatoso", "description": "Brownie tibio de chocolate intenso, acompañado de una bocha de helado de crema americana y coronado con un mix fresco de frutos rojos que equilibran lo dulce con un toque ácido.", "price": 0 },
+        { "name": "3 Bochas", "description": "Trío irresistible de helado a elección entre crema americana, dulce de leche y chocolate, servido en copa o cucurucho. Ideal para los indecisos y los golosos con estrategia.", "price": 0 },
+        { "name": "Postre Don Pedro", "description": "Una clásica combinación argentina: helado de americana generosamente bañado en whisky, perfecto para cerrar la comida con estilo y carácter.", "price": 0 },
+        { "name": "Torta Vasca", "description": "Deliciosa tarta cremosa de origen vasco, con una base tostada y corazón suave, que se derrite en la boca. El toque de caramelo en la superficie la hace inolvidable.", "price": 0 }
+      ]
+    },
+    {
+      "category": "Promociones",
+      "items": [
+        { "name": "Promo Clásica", "description": "Pizza clásica + Botellón clásico", "price": 25000 },
+        { "name": "Promo Lupulada", "description": "Pizza especial + Botellón lupulado", "price": 30000 }
+      ]
+    }
+  ]
+}
