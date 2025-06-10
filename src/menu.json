@@ -3,23 +3,24 @@
     {
       "category": "🍻 Happy Hour",
       "items": [
-        { "name": "Clásicas", "price": 2500 }
+        { "name": "Clásicas", "price": 3000 },
+        { "name": "Fernet", "price": 5000 }
       ]
     },
     {
       "category": "🍺 Cervezas - Pinta/Lata",
       "items": [
-        { "name": "Clásicas", "price": 4800 },
-        { "name": "Lupuladas", "price": 5100 },
-        { "name": "Especiales", "price": 5400 }
+        { "name": "Clásicas", "price": 5000 },
+        { "name": "Lupuladas", "price": 5300 },
+        { "name": "Especiales", "price": 5600 }
       ]
     },
     {
       "category": "🍺 Cerveza - Media Pinta",
       "items": [
-        { "name": "Clásicas", "price": 4400 },
-        { "name": "Lupuladas", "price": 4700 },
-        { "name": "Especiales", "price": 5000 }
+        { "name": "Clásicas", "price": 4600 },
+        { "name": "Lupuladas", "price": 4900 },
+        { "name": "Especiales", "price": 5200 }
       ]
     },
     {
@@ -38,22 +39,22 @@
       "category": "Sin Alcohol y Energizantes",
       "items": [
         { "name": "Agua / Saborizadas / Gaseosas", "price": 2500 },
-        { "name": "Monster", "price": 5300 }
+        { "name": "Monster", "price": 5500 }
       ]
     },
     {
       "category": "Tragos",
       "items": [
-        { "name": "Fernet, Gancia, Campari, Cuba Libre, Destornillador, Daiquiri, Vermut", "price": 5800 },
-        { "name": "Negroni, Mojito", "price": 6600 },
-        { "name": "Caipiroska, Gin Tonic", "price": 6100 },
-        { "name": "Gin Tonic (Frutos Rojos)", "price": 6100 },
-        { "name": "Gin Tonic (Tanqueray)", "price": 7100 },
-        { "name": "Vino Lata", "price": 6100 },
-        { "name": "Vino Botella", "price": 8600 },
-        { "name": "Tequila", "price": 8600 },
-        { "name": "Whisky White Horse", "price": 9600 },
-        { "name": "Whisky JB Black", "price": 11100 }
+        { "name": "Fernet, Gancia, Campari, Cuba Libre, Destornillador, Daiquiri, Vermut", "price": 6000 },
+        { "name": "Negroni, Mojito", "price": 6800 },
+        { "name": "Caipiroska, Gin Tonic", "price": 6300 },
+        { "name": "Gin Tonic (Frutos Rojos)", "price": 6300 },
+        { "name": "Gin Tonic (Tanqueray)", "price": 7300 },
+        { "name": "Vino Lata", "price": 6300 },
+        { "name": "Vino Botella", "price": 8800 },
+        { "name": "Tequila", "price": 8800 },
+        { "name": "Whisky White Horse", "price": 9800 },
+        { "name": "Whisky JB Black", "price": 11300 }
       ]
     },
    {
@@ -307,8 +308,8 @@
       "category": "Picadas Artesanales",
       "description": "Una selección premium de sabores: salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero.",
       "items": [
-        { "name": "Para 2 personas", "price": 15000 },
-        { "name": "Para 4 personas", "price": 20000 }
+        { "name": "Para 2 personas", "price": 20000 },
+        { "name": "Para 4 personas", "price": 30000 }
       ]
     },
     {
