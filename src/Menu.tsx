@@ -9,7 +9,7 @@ const Menu = () => {
       <h1>713 BAR ARCADE</h1>
       <h2>Menu y precios</h2>
       {menuData.menu.map((category: Category, index: number) => (
-        !category.disabled &&(<div key={index} className="category">
+        !category.disabled && (<div key={index} className="category">
           <h3>{category.category}</h3>
           {/* <p>{JSON.stringify(category)}</p> */}
           {
@@ -21,7 +21,7 @@ const Menu = () => {
                       {item.image && <img src={`/assets/icons/${item.image}`} alt={item.name} width={40}>{item.name}</img>}
                       {<div className="foodname">{item.name}</div>}
                       {typeof item.price === 'number' ? (
-                        <span>{item.price}</span>
+                        <span>${item.price}</span>
                       ) : (
                         <ul>
                           {Object.entries(item.price || {}).map(([tipo, valor]) => (

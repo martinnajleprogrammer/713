@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h2>713 Editor</h2>
+      {/* <h2>713 Editor</h2> */}
       <Menu></Menu>
     </>
   )

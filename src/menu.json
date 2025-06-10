@@ -298,6 +298,7 @@
 },
     {
       "category": "Bonus Point",
+      "disabled": true,
       "items": [
         { "name": "Empanadas", "description": "Carne, pollo y jamón y queso.", "price": { "unidad": 0, "docena": 0 } }
       ]
