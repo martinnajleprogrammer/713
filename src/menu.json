@@ -306,10 +306,9 @@
     },
     {
       "category": "Picadas Artesanales",
-      "description": "Una selección premium de sabores: salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero.",
       "items": [
-        { "name": "Para 2 personas", "price": 20000 },
-        { "name": "Para 4 personas", "price": 30000 }
+        { "name": "Para 2 personas", "price": 20000, "description": "Seleccion premium de sabores (x2): salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero."},
+        { "name": "Para 4 personas", "price": 30000, "description": "Selección premium de sabores (x4): salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero."}
       ]
     },
     {

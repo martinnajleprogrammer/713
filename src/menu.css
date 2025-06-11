@@ -91,6 +91,11 @@
       color: white;
     }
     
+    .desc {
+      text-align: justify;
+      margin-left: 1em;
+    }
+
     @media (max-width: 600px) {
       li {
         flex-direction: column;
