@@ -22,7 +22,7 @@ const Menu = () => {
                       {<div className="foodname">{item.name}</div>}
                       {item.description && <div className="desc">{item.description}</div>}
                       {typeof item.price === 'number' ? (
-                        <span>${item.price}</span>
+                        <span>${item.price}{item.unit ? `/${item.unit}` : ''}</span>
                       ) : (
                         <ul>
                           {Object.entries(item.price || {}).map(([tipo, valor]) => (

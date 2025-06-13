@@ -30,9 +30,9 @@
         { "name": "Botellón Lupuladas", "price": 20000 },
         { "name": "Botellón Especiales", "price": 24000 },
         { "name": "PET", "price": 1000 },
-        { "name": "Barril Clásicos", "price": 8000, "unidad": "L" },
-        { "name": "Barril Lupuladas", "price": 10000, "unidad": "L" },
-        { "name": "Barril Especiales", "price": 12000, "unidad": "L" }
+        { "name": "Barril Clásicos", "price": 8000, "unit": "L" },
+        { "name": "Barril Lupuladas", "price": 10000, "unit": "L" },
+        { "name": "Barril Especiales", "price": 12000, "unit": "L" }
       ]
     },
     {
