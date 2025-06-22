@@ -240,7 +240,7 @@
         },
         {
           "name": "Bomberman",
-          "description": "Pizza bomba, sabrosa, salsa de tomate, mozzarella, panceta, huevos fritos y aceitunas.",
+          "description": "Pizza bomba, sabrosa, salsa de tomate, mozzarella, papas fritas, panceta, huevos fritos y aceitunas.",
           "image": "bomber.gif"
         },
         {
@@ -322,12 +322,11 @@
     },
     {
       "category": "Postres",
-      "disabled": true,
       "items": [
-        { "name": "Chocolatoso", "description": "Brownie tibio de chocolate intenso, acompañado de una bocha de helado de crema americana y coronado con un mix fresco de frutos rojos que equilibran lo dulce con un toque ácido.", "price": 0 },
-        { "name": "3 Bochas", "description": "Trío irresistible de helado a elección entre crema americana, dulce de leche y chocolate, servido en copa o cucurucho. Ideal para los indecisos y los golosos con estrategia.", "price": 0 },
-        { "name": "Postre Don Pedro", "description": "Una clásica combinación argentina: helado de americana generosamente bañado en whisky, perfecto para cerrar la comida con estilo y carácter.", "price": 0 },
-        { "name": "Torta Vasca", "description": "Deliciosa tarta cremosa de origen vasco, con una base tostada y corazón suave, que se derrite en la boca. El toque de caramelo en la superficie la hace inolvidable.", "price": 0 }
+        { "disabled": true, "name": "Chocolatoso", "description": "Brownie tibio de chocolate intenso, acompañado de una bocha de helado de crema americana y coronado con un mix fresco de frutos rojos que equilibran lo dulce con un toque ácido.", "price": 0 },
+        { "disabled": true, "name": "3 Bochas", "description": "Trío irresistible de helado a elección entre crema americana, dulce de leche y chocolate, servido en copa o cucurucho. Ideal para los indecisos y los golosos con estrategia.", "price": 0 },
+        { "disabled": true, "name": "Postre Don Pedro", "description": "Una clásica combinación argentina: helado de americana generosamente bañado en whisky, perfecto para cerrar la comida con estilo y carácter.", "price": 0 },
+        { "name": "Torta Vasca", "description": "Deliciosa tarta cremosa de origen vasco, con una base tostada y corazón suave, que se derrite en la boca. La salsa roja la hace inolvidable.", "price": 8000 }
       ]
     },
     {
