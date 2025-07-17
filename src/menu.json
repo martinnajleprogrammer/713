@@ -47,9 +47,9 @@
       "items": [
         { "name": "Fernet, Gancia, Campari, Cuba Libre, Destornillador, Daiquiri, Vermut", "price": 6000 },
         { "name": "Negroni, Mojito", "price": 6800 },
-        { "name": "Caipiroska, Gin Tonic", "price": 6300 },
-        { "name": "Gin Tonic (Frutos Rojos)", "price": 6300 },
-        { "name": "Gin Tonic (Tanqueray)", "price": 7300 },
+        { "name": "Caipiroska, Gin Tonic", "price": 6800 },
+        { "name": "Gin Tonic (Frutos Rojos)", "price": 6800 },
+        { "name": "Gin Tonic (Tanqueray)", "price": 7500 },
         { "name": "Vino Lata", "price": 6300 },
         { "name": "Vino Botella", "price": 8800 },
         { "name": "Tequila", "price": 8800 },
@@ -323,8 +323,8 @@
     {
       "category": "Postres",
       "items": [
-        { "disabled": true, "name": "Chocolatoso", "description": "Brownie tibio de chocolate intenso, acompañado de una bocha de helado de crema americana y coronado con un mix fresco de frutos rojos que equilibran lo dulce con un toque ácido.", "price": 0 },
-        { "disabled": true, "name": "3 Bochas", "description": "Trío irresistible de helado a elección entre crema americana, dulce de leche y chocolate, servido en copa o cucurucho. Ideal para los indecisos y los golosos con estrategia.", "price": 0 },
+        { "name": "Chocolatoso", "description": "Brownie tibio de chocolate intenso, acompañado de una bocha de helado de crema americana y coronado con un mix fresco de frutos rojos que equilibran lo dulce con un toque ácido.", "price": 7500 },
+        { "name": "3 Bochas", "description": "Trío irresistible de helado a elección entre crema americana, dulce de leche y chocolate, servido en copa o cucurucho. Ideal para los indecisos y los golosos con estrategia.", "price": 5000 },
         { "disabled": true, "name": "Postre Don Pedro", "description": "Una clásica combinación argentina: helado de americana generosamente bañado en whisky, perfecto para cerrar la comida con estilo y carácter.", "price": 0 },
         { "name": "Torta Vasca", "description": "Deliciosa tarta cremosa de origen vasco, con una base tostada y corazón suave, que se derrite en la boca. La salsa roja la hace inolvidable.", "price": 8000 }
       ]
