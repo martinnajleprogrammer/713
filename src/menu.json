@@ -4,23 +4,23 @@
       "category": "🍻 Happy Hour",
       "items": [
         { "name": "Clásicas", "price": 3000 },
-        { "name": "Fernet", "price": 5000 }
+        { "disabled":true, "name": "Fernet", "price": 5000 }
       ]
     },
     {
       "category": "🍺 Cervezas - Pinta/Lata",
       "items": [
         { "name": "Clásicas", "price": 5000 },
-        { "name": "Lupuladas", "price": 5300 },
-        { "name": "Especiales", "price": 5600 }
+        { "name": "Lupuladas", "price": 5500 },
+        { "name": "Especiales", "price": 5800 }
       ]
     },
     {
       "category": "🍺 Cerveza - Media Pinta",
       "items": [
         { "name": "Clásicas", "price": 4600 },
-        { "name": "Lupuladas", "price": 4900 },
-        { "name": "Especiales", "price": 5200 }
+        { "name": "Lupuladas", "price": 5100 },
+        { "name": "Especiales", "price": 5400 }
       ]
     },
     {
