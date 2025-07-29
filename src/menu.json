@@ -10,9 +10,9 @@
     {
       "category": "🍺 Cervezas - Pinta/Lata",
       "items": [
-        { "name": "Clásicas", "price": 5000 },
-        { "name": "Lupuladas", "price": 5500 },
-        { "name": "Especiales", "price": 5800 }
+        { "name": "Clásicas", "price": 5300 },
+        { "name": "Lupuladas", "price": 5800 },
+        { "name": "Especiales", "price": 6300 }
       ]
     },
     {
@@ -45,7 +45,7 @@
     {
       "category": "Tragos",
       "items": [
-        { "name": "Fernet, Gancia, Campari, Cuba Libre, Destornillador, Daiquiri, Vermut", "price": 6000 },
+        { "name": "Fernet, Gancia, Campari, Cuba Libre, Destornillador, Daiquiri, Vermut", "price": 6300 },
         { "name": "Negroni, Mojito", "price": 6800 },
         { "name": "Caipiroska, Gin Tonic", "price": 6800 },
         { "name": "Gin Tonic (Frutos Rojos)", "price": 6800 },
