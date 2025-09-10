@@ -1,11 +1,12 @@
 import Menu from './Menu';
 import './App.css'
+import Banner from './Banner';
 
 function App() {
 
   return (
     <>
-      {/* <h2>713 Editor</h2> */}
+      <Banner></Banner>
       <Menu></Menu>
     </>
   )
