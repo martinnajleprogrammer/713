@@ -172,13 +172,15 @@
   justify-self: flex-end;
   gap: 0.5em;
 }
+.banner img {
+  height: 80px;
+  aspect-ratio: 1;
+}
 .banner-logo {
   margin-right: auto;
 }
 img {
-  border-radius: 20px;;
-  height: 80px;
-  aspect-ratio: 1;
+  border-radius: 20px;
 }
 .banner-youtube {
   background: linear-gradient(45deg, #bcb0b0,#736b6b, #6d5c5c) 0 0 / 200% 100%;
