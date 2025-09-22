@@ -10,7 +10,9 @@ const Menu = () => {
       <h2>Menu y precios</h2>
       {menuData.menu.map((category: Category, index: number) => (
         !category.disabled && (<div key={index} className="category">
-          <h3>{category.category}</h3>
+          <h3>{category.category}:
+            <span className='description'>{category.description}</span>
+          </h3>
           {/* <p>{JSON.stringify(category)}</p> */}
           {
             category.subcategories ?

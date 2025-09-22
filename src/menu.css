@@ -35,8 +35,7 @@
     }
 
     h3 {
-      display: flex;
-      justify-content: center;
+      display: inline;
       color: #ff4081;
       font-size: 1.2em;
       border-bottom: 1px solid #555;
@@ -45,6 +44,9 @@
       text-transform: uppercase;
     }
 
+    .category .description {
+      text-transform: none;
+    }
     ul {
       list-style: none;
       padding: 0;
