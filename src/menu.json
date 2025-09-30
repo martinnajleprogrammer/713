@@ -3,32 +3,32 @@
     {
       "category": "🍻 Happy Hour: 19hs a 21hs. Mar a Dom.",
       "items": [
-        { "name": "Clásicas", "price": 3000 },
+        { "name": "Clásicas", "price": 3500 },
         { "disabled":true, "name": "Fernet", "price": 5000 }
       ]
     },
     {
       "category": "🍺 Cervezas - Pinta/Lata",
       "items": [
-        { "name": "Clásicas", "price": 5500 },
-        { "name": "Lupuladas", "price": 6000 },
-        { "name": "Especiales", "price": 6500 }
+        { "name": "Clásicas", "price": 5700 },
+        { "name": "Lupuladas", "price": 6200 },
+        { "name": "Especiales", "price": 6700 }
       ]
     },
     {
       "category": "🍺 Cerveza - Media Pinta",
       "items": [
-        { "name": "Clásicas", "price": 5100 },
-        { "name": "Lupuladas", "price": 5600 },
-        { "name": "Especiales", "price": 6100 }
+        { "name": "Clásicas", "price": 5300 },
+        { "name": "Lupuladas", "price": 5800 },
+        { "name": "Especiales", "price": 6300 }
       ]
     },
     {
       "category": "🍻 Botellón y Barril",
       "items": [
-        { "name": "Botellón Clásicos", "price": 16000 },
-        { "name": "Botellón Lupuladas", "price": 20000 },
-        { "name": "Botellón Especiales", "price": 24000 },
+        { "name": "Botellón Clásicos", "price": 18000 },
+        { "name": "Botellón Lupuladas", "price": 22000 },
+        { "name": "Botellón Especiales", "price": 26000 },
         { "name": "PET", "price": 1000 },
         { "name": "Barril Clásicos", "price": 8000, "unit": "L" },
         { "name": "Barril Lupuladas", "price": 10000, "unit": "L" },
