@@ -10,17 +10,17 @@
     {
       "category": "🍺 Cervezas - Pinta/Lata",
       "items": [
-        { "name": "Clásicas", "price": 5700 },
-        { "name": "Lupuladas", "price": 6200 },
-        { "name": "Especiales", "price": 6700 }
+        { "name": "Clásicas", "price": 5800 },
+        { "name": "Lupuladas", "price": 6300 },
+        { "name": "Especiales", "price": 6800 }
       ]
     },
     {
       "category": "🍺 Cerveza - Media Pinta",
       "items": [
-        { "name": "Clásicas", "price": 5300 },
-        { "name": "Lupuladas", "price": 5800 },
-        { "name": "Especiales", "price": 6300 }
+        { "name": "Clásicas", "price": 5400 },
+        { "name": "Lupuladas", "price": 5900 },
+        { "name": "Especiales", "price": 6400 }
       ]
     },
     {
@@ -52,6 +52,8 @@
         { "name": "Gin Tonic (Tanqueray)", "price": 7500 },
         { "name": "Vino Blanco Lata", "price": 6500 },
         { "name": "Vino Blanco Botella", "price": 14000 },
+        { "name": "Champagne Mumm Botella", "price": 24000 },
+        { "name": "PROMO: Champagne Mumm Botella + 2 latas de speed", "price": 30000 },
         { "name": "Tequila", "price": 9000 },
         { "name": "Whisky White Horse", "price": 10000 },
         { "name": "Whisky Black Label - Johnnie Walker", "price": 11500 }
