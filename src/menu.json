@@ -38,14 +38,14 @@
     {
       "category": "Sin Alcohol y Energizantes",
       "items": [
-        { "name": "Agua / Saborizadas / Gaseosas", "price": 2500 },
+        { "name": "Agua / Saborizadas / Gaseosas", "price": 3000 },
         { "name": "Speed", "price": 4000 }
       ]
     },
     {
       "category": "Tragos",
       "items": [
-        { "name": "Fernet, Gancia, Campari, Cuba Libre, Destornillador, Daiquiri, Vermut", "price": 6500 },
+        { "name": "Fernet, Gancia, Campari, Cuba Libre, Destornillador, Daiquiri, Vermut", "price": 7000 },
         { "name": "Negroni, Mojito", "price": 7000 },
         { "name": "Caipiroska, Gin Tonic", "price": 7000 },
         { "name": "Gin Tonic (Frutos Rojos)", "price": 7000 },
