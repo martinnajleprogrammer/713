@@ -1,5 +1,9 @@
-const Stars = (thePrices) => {
-  const { prices } = thePrices;
+import type { Price } from "./types/menu";
+type StarsProps = {
+  prices: Price[];
+};
+
+const Stars = ({ prices }: StarsProps) => {
   return (
     <div className="stars">
       {prices.map((price, index) => (

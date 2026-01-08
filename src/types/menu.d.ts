@@ -6,7 +6,7 @@ export type Item = {
   price?: number | { [key: string]: number; };
   unit?: string; // Add unidad property to match the data structure
 };
-type Price = { price: number, type: string };
+type Price = { type: string, value: number };
 
 type Subcategory = {
   name: string;

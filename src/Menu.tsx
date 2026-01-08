@@ -3,7 +3,6 @@ import './menu.css';
 import Subcategories from './Subcategories'; // Import the Subcategories component
 import HappyHourBadge from './HappyHourBadge';
 import type { Category, Item } from "./types/menu";
-import Stars from "./Stars";
 
 const Menu = () => {
   return (
@@ -13,7 +12,6 @@ const Menu = () => {
       <HappyHourBadge />
       {menuData.menu.map((category: Category, index: number) => (
         !category.disabled && (<div key={index} className="category">
-
           <h3>{category.category}:
             <span className='description'>{category.description}</span>
           </h3>

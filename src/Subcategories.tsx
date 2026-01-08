@@ -29,7 +29,7 @@ const Subcategories = ({ category }: { category: Category }) => {
           ))}
         </ul>
       </ul>
-      {category.category === "Hamburguesas" && category.subcategories && <Stars prices={category.subcategories[0].prices} />}
+      {category.category === "Hamburguesas" && category.subcategories && category.subcategories[0].prices && <Stars prices={category.subcategories[0].prices} />}
     </>
   ))
 };
