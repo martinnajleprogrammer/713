@@ -403,6 +403,7 @@
     },
     {
       "category": "Postres",
+      "disabled": true,
       "items": [
         {
           "disabled": true,
