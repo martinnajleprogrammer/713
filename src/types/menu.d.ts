@@ -6,12 +6,16 @@ export type Item = {
   price?: number | { [key: string]: number; };
   unit?: string; // Add unidad property to match the data structure
 };
+type Price = { price: number, type: string };
+
 type Subcategory = {
   name: string;
   price?: number | { [key: string]: number; };
   items: Item[];
+  prices?: Price[];
 };
 export type Category = {
+  isHH?: boolean;
   category: string;
   disabled?: boolean;
   subcategories?: Subcategory[];

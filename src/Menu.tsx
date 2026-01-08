@@ -1,19 +1,22 @@
 import menuData from "./menu.json";
 import './menu.css';
 import Subcategories from './Subcategories'; // Import the Subcategories component
+import HappyHourBadge from './HappyHourBadge';
 import type { Category, Item } from "./types/menu";
+import Stars from "./Stars";
 
 const Menu = () => {
   return (
     <div className="menu">
       <h1>713 BAR ARCADE</h1>
       <h2>Menu y precios</h2>
+      <HappyHourBadge />
       {menuData.menu.map((category: Category, index: number) => (
         !category.disabled && (<div key={index} className="category">
+
           <h3>{category.category}:
             <span className='description'>{category.description}</span>
           </h3>
-          {/* <p>{JSON.stringify(category)}</p> */}
           {
             category.subcategories ?
               <Subcategories category={category}></Subcategories> : (
@@ -36,9 +39,12 @@ const Menu = () => {
                   ))}
                 </ul>
               )}
-        </div>)
+
+        </div>
+        )
       ))}
     </div>
+
   );
 };
 

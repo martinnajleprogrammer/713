@@ -14,12 +14,8 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #000;
-  color: #f1f1f1;
+  background-color: #FAE9D8;
+  color: #1c3e56;
   padding: 20px;
   margin: auto;
-  background-image: url('/assets/icons/beer.webp'), url('/assets/icons/pizza.jpg');
-  background-size: 100% auto, 100%;
-  background-position: top center, bottom;
-  background-repeat: no-repeat, no-repeat;
 }

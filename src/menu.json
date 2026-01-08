@@ -1,345 +1,482 @@
 {
   "menu": [
     {
-      "category": "🍻 Happy Hour: 19hs a 21hs. Mar a Dom.",
-      "items": [
-        { "name": "Clásicas", "price": 3500 },
-        { "disabled":true, "name": "Fernet", "price": 5000 }
-      ]
-    },
-    {
       "category": "🍺 Cervezas - Pinta/Lata",
       "items": [
-        { "name": "Clásicas", "price": 5800 },
-        { "name": "Lupuladas", "price": 6300 },
-        { "name": "Especiales", "price": 6800 }
+        {
+          "name": "Clásicas",
+          "price": 6000
+        },
+        {
+          "name": "Lupuladas",
+          "price": 7000
+        },
+        {
+          "name": "Especiales",
+          "price": 8000
+        }
       ]
     },
     {
       "category": "🍺 Cerveza - Media Pinta",
       "items": [
-        { "name": "Clásicas", "price": 5400 },
-        { "name": "Lupuladas", "price": 5900 },
-        { "name": "Especiales", "price": 6400 }
+        {
+          "name": "Clásicas",
+          "price": 6000
+        },
+        {
+          "name": "Lupuladas",
+          "price": 6500
+        },
+        {
+          "name": "Especiales",
+          "price": 7500
+        }
       ]
     },
     {
       "category": "🍻 Botellón y Barril",
       "items": [
-        { "name": "Botellón Clásicos", "price": 18000 },
-        { "name": "Botellón Lupuladas", "price": 22000 },
-        { "name": "Botellón Especiales", "price": 26000 },
-        { "name": "PET", "price": 1000 },
-        { "name": "Barril Clásicos", "price": 8000, "unit": "L" },
-        { "name": "Barril Lupuladas", "price": 10000, "unit": "L" },
-        { "name": "Barril Especiales", "price": 12000, "unit": "L" }
+        {
+          "name": "Botellón Clásicos",
+          "price": 18000
+        },
+        {
+          "name": "Botellón Lupuladas",
+          "price": 22000
+        },
+        {
+          "name": "Botellón Especiales",
+          "price": 26000
+        },
+        {
+          "name": "PET",
+          "price": 1000
+        },
+        {
+          "name": "Barril Clásicos",
+          "price": 8000,
+          "unit": "L",
+          "isDisabled": true
+        },
+        {
+          "name": "Barril Lupuladas",
+          "price": 10000,
+          "unit": "L",
+          "isDisabled": true
+        },
+        {
+          "name": "Barril Especiales",
+          "price": 12000,
+          "unit": "L",
+          "isDisabled": true
+        }
       ]
     },
     {
       "category": "Sin Alcohol y Energizantes",
       "items": [
-        { "name": "Agua / Saborizadas / Gaseosas", "price": 3000 },
-        { "name": "Speed", "price": 4000 }
+        {
+          "name": "Agua / Saborizadas / Gaseosas",
+          "price": 3000
+        },
+        {
+          "name": "Speed",
+          "price": 4000
+        }
       ]
     },
     {
       "category": "Tragos",
       "items": [
-        { "name": "Fernet, Gancia, Campari, Cuba Libre, Destornillador, Daiquiri, Vermut", "price": 7000 },
-        { "name": "Negroni, Mojito", "price": 7000 },
-        { "name": "Caipiroska, Gin Tonic", "price": 7000 },
-        { "name": "Gin Tonic (Frutos Rojos)", "price": 7000 },
-        { "name": "Gin Tonic (Tanqueray)", "price": 7500 },
-        { "name": "Vino Blanco Lata", "price": 6500 },
-        { "name": "Vino Blanco Botella", "price": 14000 },
-        { "name": "Champagne Mumm Botella", "price": 24000 },
-        { "name": "PROMO: Champagne Mumm Botella + 2 latas de speed", "price": 30000 },
-        { "name": "Tequila", "price": 9000 },
-        { "name": "Whisky White Horse", "price": 10000 },
-        { "name": "Whisky Black Label - Johnnie Walker", "price": 11500 }
-      ]
-    },
-   {
-  "category": "Papas",
-  "subcategories": [
-    {
-      "name": "Clásicas",
-      "price": 12000,
-      "items": [
         {
-          "image": "bison.webp",
-          "name": "Bison",
-          "description": "Porción de papas fritas abundantes."
+          "name": "Fernet, Gancia, Campari, Cuba Libre, Destornillador, Daiquiri, Vermut",
+          "price": 7000
+        },
+        {
+          "name": "Negroni, Mojito",
+          "price": 7000
+        },
+        {
+          "name": "Caipiroska, Gin Tonic",
+          "price": 7000
+        },
+        {
+          "name": "Gin Tonic (Frutos Rojos)",
+          "price": 7000
+        },
+        {
+          "name": "Gin Tonic (Tanqueray)",
+          "price": 7500
+        },
+        {
+          "name": "Vino Blanco Lata",
+          "price": 6500
+        },
+        {
+          "name": "Vino Blanco Botella",
+          "price": 14000
+        },
+        {
+          "name": "Champagne Mumm Botella",
+          "price": 24000
+        },
+        {
+          "name": "PROMO: Champagne Mumm Botella + 2 latas de speed",
+          "price": 30000
+        },
+        {
+          "name": "Tequila",
+          "price": 9000
+        },
+        {
+          "name": "Whisky White Horse",
+          "price": 10000
+        },
+        {
+          "name": "Whisky Black Label - Johnnie Walker",
+          "price": 11500
         }
       ]
     },
     {
-      "name": "Especiales",
-      "price": 13000,
-      "items": [
+      "category": "Papas",
+      "subcategories": [
         {
-          "name": "713",
-          "description": "Papas gruesas con el toque justo de provenzal. Unas papas distintas con un estilo gamer argento."
+          "name": "Clásicas",
+          "price": 12000,
+          "items": [
+            {
+              "image": "bison.webp",
+              "name": "Bison",
+              "description": "Porción de papas fritas abundantes."
+            }
+          ]
         },
         {
-          "image": "guile.gif",
-          "name": "Guille",
-          "description": "Salsa de mozzarella, burger de pollo y morrón dulce."
+          "name": "Especiales",
+          "price": 14000,
+          "items": [
+            {
+              "image": "blanka.png",
+              "name": "Blanka",
+              "description": "Panceta crocante, cebolla de verdeo y salsa cheddar."
+            }
+          ]
         },
         {
-          "image": "blanka.png",
-          "name": "Blanka",
-          "description": "Panceta crocante, cebolla de verdeo y salsa cheddar."
-        },
-        {
-          "image": "honda.gif",
-          "name": "Honda",
-          "description": "Salsa de tomate, mozzarella, queso azul y provoleta."
-        },
-        {
-          "image": "ken.png",
-          "name": "Ken",
-          "description": "Mozzarella, tomate confitado, albahaca, aceitunas y oliva."
-        },
-        {
-          "image": "ryu.png",
-          "name": "Ryu",
-          "description": "Mozzarella, jamón cocido, morrón y huevo."
-        },
-        {
-          "image": "chun-li.png",
-          "name": "Chun-li",
-          "description": "Mozzarella y salame."
-        }
-      ]
-    }
-  ]
-},
-  {
-  "category": "Hamburguesas",
-  "description": "acompañadas de papas clásicas",
-  "subcategories": [
-    {
-      "name": "Veggie",
-      "price": 14000,
-      "items": [
-        {
-          "name": "Veggie",
-          "description": "Hamburguesa opción vegetariana."
+          "name": "Super Especiales",
+          "price": 14500,
+          "items": [
+            {
+              "image": "guile.gif",
+              "name": "Guille",
+              "description": "Salsa de mozzarella, burger de pollo y morrón dulce."
+            },
+            {
+              "image": "ken.png",
+              "name": "Ken",
+              "description": "Mozzarella, tomate confitado, albahaca, aceitunas y oliva."
+            }
+          ]
         }
       ]
     },
     {
-      "name": "Dobles",
-      "price": 15500,
-      "items": [
+      "category": "Hamburguesas",
+      "description": "acompañadas de papas clásicas",
+      "subcategories": [
         {
-          "name": "Venom",
-          "image": "venom.gif",
-          "description": "Burger, cebolla, provoleta y tomate."
-        },
-        {
-          "name": "Spiderman",
-          "image": "spiderman.gif",
-          "description": "Burger, cheddar, panceta y cebolla de verdeo."
-        },
-        {
-          "name": "Wolverine",
-          "image": "wolverine.png",
-          "description": "Burger, jamón, mozzarella, morrón dulce y huevo."
-        },
-        {
-          "name": "Capitana Marvel",
-          "image": "capitana.png",
-          "description": "Burger, mozzarella, tomate, lechuga y ciboulette."
-        },
-        {
-          "name": "Deadpool",
-          "image": "deadpool.png",
-          "description": "Burger, cheddar, american ketchup Kansas, tomate y salsa picante."
-        },
-        {
-          "name": "Nick Fury",
-          "image": "nick.png",
-          "description": "Burger, mozzarella, queso azul y american ketchup Kansas."
-        },
-        {
-          "name": "Dr. Strange",
-          "image": "strange.gif",
-          "description": "Burger, mozzarella, tomate confitado, albahaca y aceitunas."
-        },
-        {
-          "name": "Rocket",
-          "image": "rocket.png",
-          "description": "Queso crema, rúcula y panceta."
+          "name": "Burgers",
+          "prices": [
+            {
+              "type": "simple",
+              "value": 14000
+            },
+            {
+              "type": "doble",
+              "value": 16000
+            },
+            {
+              "type": "triple",
+              "value": 18000
+            }
+          ],
+          "items": [
+            {
+              "name": "Venom",
+              "image": "venom.gif",
+              "description": "Burger, cebolla, provoleta y tomate."
+            },
+            {
+              "name": "Spiderman",
+              "image": "spiderman.gif",
+              "description": "Burger, cheddar, panceta y cebolla de verdeo."
+            },
+            {
+              "name": "Wolverine",
+              "image": "wolverine.png",
+              "description": "Burger, jamón, mozzarella, morrón dulce y huevo."
+            },
+            {
+              "name": "Capitana Marvel",
+              "image": "capitana.png",
+              "description": "Burger, mozzarella, tomate, lechuga y ciboulette."
+            },
+            {
+              "name": "Deadpool",
+              "image": "deadpool.png",
+              "description": "Burger, cheddar, american ketchup Kansas, tomate y salsa picante."
+            },
+            {
+              "name": "Nick Fury",
+              "image": "nick.png",
+              "description": "Burger, mozzarella, queso azul y american ketchup Kansas."
+            },
+            {
+              "name": "Dr. Strange",
+              "image": "strange.gif",
+              "description": "Burger, mozzarella, tomate confitado, albahaca y aceitunas."
+            },
+            {
+              "name": "Rocket",
+              "image": "rocket.png",
+              "description": "Queso crema, rúcula y panceta."
+            },
+            {
+              "name": "Hulk",
+              "image": "hulk.gif",
+              "description": "Burger, cheddar, panceta y cebolla caramelizada."
+            },
+            {
+              "name": "Capitan America",
+              "image": "capitan.webp",
+              "description": "Burger, american ketchup Kansas, mozzarella, jamón y morrón dulce."
+            },
+            {
+              "name": "Iron Man",
+              "image": "iron.png",
+              "description": "Burger, jamón, provoleta, tomate, lechuga y cebolla caramelizada."
+            },
+            {
+              "name": "Thor",
+              "image": "thor.png",
+              "description": "Burger, manteca de ajo, cheddar, panceta y cebolla caramelizada."
+            },
+            {
+              "name": "Stan Lee",
+              "image": "stan.gif",
+              "description": "Burger y cebolla caramelizada."
+            },
+            {
+              "name": "Thanos",
+              "image": "thanos.png",
+              "description": "Burger, doble cheddar."
+            }
+          ]
         }
       ]
     },
     {
-      "name": "Triples",
-      "price": 17000,
-      "items": [
+      "category": "Pizzas",
+      "subcategories": [
         {
-          "name": "Hulk",
-          "image": "hulk.gif",
-          "description": "Burger, cheddar, panceta y cebolla caramelizada."
+          "name": "Clásicas",
+          "price": 18000,
+          "items": [
+            {
+              "name": "Tetris",
+              "description": "Salsa de tomate, mozzarella y aceitunas.",
+              "image": "tetris.gif"
+            },
+            {
+              "name": "Arkanoid",
+              "description": "Mozzarella, cebolla, manteca de ajo y aceitunas.",
+              "image": "ark.gif"
+            }
+          ]
         },
         {
-          "name": "Capitan America",
-          "image": "capitan.webp",
-          "description": "Burger, american ketchup Kansas, mozzarella, jamón y morrón dulce."
-        },
-        {
-          "name": "Iron Man",
-          "image": "iron.png",
-          "description": "Burger, jamón, provoleta, tomate, lechuga y cebolla caramelizada."
-        },
-        {
-          "name": "Thor",
-          "image": "thor.png",
-          "description": "Burger, manteca de ajo, cheddar, panceta y cebolla caramelizada."
-        },
-        {
-          "name": "Stan Lee",
-          "image": "stan.gif",
-          "description": "Burger y cebolla caramelizada."
-        },
-        {
-          "name": "Thanos",
-          "image": "thanos.png",
-          "description": "Burger, doble cheddar."
-        }
-      ]
-    }
-  ]
-},
-    {
-  "category": "Pizzas",
-  "subcategories": [
-    {
-      "name": "Clásicas",
-      "price": 16000,
-      "items": [
-        {
-          "name": "Tetris",
-          "description": "Salsa de tomate, mozzarella y aceitunas.",
-          "image": "tetris.gif"
-        },
-        {
-          "name": "Arkanoid",
-          "description": "Mozzarella, cebolla, manteca de ajo y aceitunas.",
-          "image": "ark.gif"
+          "name": "Especiales",
+          "items": [
+            {
+              "name": "Metal Slug",
+              "description": "Salsa de tomate, mozzarella, jamón, morrón dulce y aceitunas.",
+              "image": "metal.webp",
+              "price": 18500
+            },
+            {
+              "name": "Bomberman",
+              "description": "Pizza bomba, sabrosa, salsa de tomate, mozzarella, papas fritas, panceta, huevos fritos y aceitunas.",
+              "image": "bomber.gif",
+              "price": 20500
+            },
+            {
+              "name": "Simpsons",
+              "description": "Salsa de tomate, mozzarella, queso azul, provoleta, cheddar y aceitunas.",
+              "image": "simpsons.gif",
+              "price": 20500
+            },
+            {
+              "name": "Sunset Riders",
+              "description": "Manteca de ajo, mozzarella, panceta, provoleta y aceitunas.",
+              "image": "sunset.jpeg",
+              "price": 20500
+            },
+            {
+              "name": "Mario Bros",
+              "description": "Salsa de tomate, mozzarella, tomate, albahaca, ajo, oliva y aceitunas.",
+              "image": "mario.gif",
+              "price": 19500
+            },
+            {
+              "name": "Space Invaders",
+              "description": "Salsa de tomate, mozzarella, jamon crudo, tomate confitado y rúcula.",
+              "image": "space.gif",
+              "price": 20500
+            },
+            {
+              "name": "Pacman",
+              "description": "Salsa de tomate, mozzarella, papas fritas, huevo frito y aceitunas.",
+              "image": "pacman.gif",
+              "price": 20500
+            },
+            {
+              "name": "1942",
+              "description": "Salsa de tomate, mozzarella, calabresa y aceitunas.",
+              "image": "1942.gif",
+              "price": 19500
+            }
+          ]
         }
       ]
     },
-    {
-      "name": "Especiales",
-      "price": 18500,
-      "items": [
-        {
-          "name": "Metal Slug",
-          "description": "Salsa de tomate, mozzarella, jamón, morrón dulce y aceitunas.",
-          "image": "metal.webp"
-        },
-        {
-          "name": "Bomberman",
-          "description": "Pizza bomba, sabrosa, salsa de tomate, mozzarella, papas fritas, panceta, huevos fritos y aceitunas.",
-          "image": "bomber.gif"
-        },
-        {
-          "name": "Simpsons",
-          "description": "Salsa de tomate, mozzarella, queso azul, provoleta, cheddar y aceitunas.",
-          "image": "simpsons.gif"
-        },
-        {
-          "name": "Sunset Riders",
-          "description": "Manteca de ajo, mozzarella, panceta, provoleta y aceitunas.",
-          "image": "sunset.jpeg"
-        },
-        {
-          "name": "Mario Bros",
-          "description": "Salsa de tomate, mozzarella, tomate, albahaca, ajo, oliva y aceitunas.",
-          "image": "mario.gif"
-        },
-        {
-          "name": "Luigi",
-          "description": "Salsa de tomate, mozzarella, tomate confitado, albahaca y aceitunas.",
-          "image": "luigi.gif"
-        },
-        {
-          "name": "Space Invaders",
-          "description": "Salsa de tomate, mozzarella, pollo, tomate confitado y rúcula.",
-          "image": "space.gif"
-        },
-        {
-          "name": "Donkey Kong",
-          "description": "Salsa de tomate, cheddar y burger (opcional).",
-          "image": "donkey.webp"
-        },
-        {
-          "name": "Pacman",
-          "description": "Salsa de tomate, mozzarella, papas fritas, huevo y aceitunas.",
-          "image": "pacman.gif"
-        },
-        {
-          "name": "1942",
-          "description": "Salsa de tomate, mozzarella, salame y aceitunas.",
-          "image": "1942.gif"
-        },
-        {
-          "name": "Golden Axe",
-          "description": "Manteca de ajo, provoleta, jamón cocido, morrón dulce y aceitunas.",
-          "image": "golden.png"
-        },
-        {
-          "name": "Wonder Boy",
-          "description": "Manteca de ajo, panceta, mozzarella, cebolla y queso azul.",
-          "image": "wonder.gif"
-        }
-      ]
-    }
-  ]
-},
     {
       "category": "Bonus Point",
       "disabled": true,
       "items": [
-        { "name": "Empanadas", "description": "Carne y jamón y queso.", "price": { "unidad": 0, "docena": 0 } }
+        {
+          "name": "Empanadas",
+          "description": "Carne y jamón y queso.",
+          "price": {
+            "unidad": 0,
+            "docena": 0
+          }
+        }
       ]
     },
     {
       "category": "Picadas Artesanales",
       "items": [
-        { "name": "Para 2 personas", "price": 20000, "description": "Seleccion premium de sabores (x2): salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero."},
-        { "name": "Para 4 personas", "price": 30000, "description": "Selección premium de sabores (x4): salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero."}
+        {
+          "name": "Para 2 personas",
+          "price": 26000,
+          "description": "Seleccion premium de sabores (x2): salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero."
+        },
+        {
+          "name": "Para 4 personas",
+          "price": 44000,
+          "description": "Selección premium de sabores (x4): salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero."
+        }
       ]
     },
     {
       "category": "Tapeo",
       "items": [
-        { "name": "Rabas", "price": 14500 },
-        { "name": "Aros de cebolla", "price": 14000 },
-        { "name": "Bastones de Pollo", "price": 15500 },
-        { "name": "Bastones de Queso", "price": 13000 }
+        {
+          "name": "Rabas",
+          "price": 17000
+        },
+        {
+          "name": "Aros de cebolla",
+          "price": 15500
+        },
+        {
+          "name": "Bastones de Pollo",
+          "price": 16000
+        },
+        {
+          "name": "Mozzarelitas de Queso",
+          "price": 15500
+        }
       ]
     },
     {
       "category": "Postres",
       "items": [
-        { "disabled": true, "name": "Chocolatoso", "description": "Brownie tibio de chocolate intenso, acompañado de una bocha de helado de crema americana y coronado con un mix fresco de frutos rojos que equilibran lo dulce con un toque ácido.", "price": 7500 },
-        { "name": "3 Bochas", "description": "Trío irresistible de helado a elección entre crema americana, dulce de leche y chocolate, servido en copa. Ideal para los indecisos y los golosos con estrategia.", "price": 5000 },
-        { "disabled": true, "name": "Postre Don Pedro", "description": "Una clásica combinación argentina: helado de americana generosamente bañado en whisky, perfecto para cerrar la comida con estilo y carácter.", "price": 0 },
-        { "disabled": true, "name": "Torta Vasca", "description": "Deliciosa tarta cremosa de origen vasco, con una base tostada y corazón suave, que se derrite en la boca. La salsa roja la hace inolvidable.", "price": 8000 }
+        {
+          "disabled": true,
+          "name": "Chocolatoso",
+          "description": "Brownie tibio de chocolate intenso, acompañado de una bocha de helado de crema americana y coronado con un mix fresco de frutos rojos que equilibran lo dulce con un toque ácido.",
+          "price": 7500
+        },
+        {
+          "disabled": true,
+          "name": "3 Bochas",
+          "description": "Trío irresistible de helado a elección entre crema americana, dulce de leche y chocolate, servido en copa. Ideal para los indecisos y los golosos con estrategia.",
+          "price": 5000
+        },
+        {
+          "disabled": true,
+          "name": "Postre Don Pedro",
+          "description": "Una clásica combinación argentina: helado de americana generosamente bañado en whisky, perfecto para cerrar la comida con estilo y carácter.",
+          "price": 0
+        },
+        {
+          "disabled": true,
+          "name": "Torta Vasca",
+          "description": "Deliciosa tarta cremosa de origen vasco, con una base tostada y corazón suave, que se derrite en la boca. La salsa roja la hace inolvidable.",
+          "price": 8000
+        }
       ]
     },
     {
       "category": "Promociones",
+      "disabled": true,
       "items": [
-        { "name": "Promo Clásica", "description": "Pizza clásica + Botellón clásico", "price": 25000 },
-        { "name": "Promo Lupulada", "description": "Pizza especial + Botellón lupulado", "price": 30000 },
-        { "name": "Promo (solo Miercoles de Pizza)", "description": "Con la compra de una Pizza especial te llevas una tetris sin cargo", "price": 18500 },
-        { "name": "Promo Papas", "description": "Porcion de papas + 2 pintas clásicas", "price": 17000 }
+        {
+          "name": "Promo Clásica",
+          "description": "Pizza clásica + Botellón clásico",
+          "price": 25000
+        },
+        {
+          "name": "Promo Lupulada",
+          "description": "Pizza especial + Botellón lupulado",
+          "price": 30000
+        },
+        {
+          "name": "Promo (solo Miercoles de Pizza)",
+          "description": "Con la compra de una Pizza especial te llevas una tetris sin cargo",
+          "price": 18500
+        },
+        {
+          "name": "Promo Papas",
+          "description": "Porcion de papas + 2 pintas clásicas",
+          "price": 17000
+        }
       ]
     }
-  ]
+  ],
+  "happyHour": {
+    "description": "19hs a 21hs. Mar a Dom.",
+    "types": [
+      {
+        "name": "Clásicas",
+        "isDisabled": false
+      },
+      {
+        "name": "Lupuladas",
+        "isDisabled": false
+      },
+      {
+        "name": "Especiales",
+        "isDisabled": false
+      },
+      {
+        "name": "Fernet",
+        "isDisabled": true
+      }
+    ],
+    "isDisabled": false
+  }
 }
