@@ -7,7 +7,7 @@ const Stars = ({ prices }: StarsProps) => {
   return (
     <div className="stars">
       {prices.map((price, index) => (
-        <div className="star" key={index}><span>{price.type}</span><span>{price.value}</span></div>
+        <div className="star" key={index}><span>{price.type}</span><span className="price">${price.value}</span></div>
       ))}
     </div>
   );

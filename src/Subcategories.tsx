@@ -5,9 +5,9 @@ const Subcategories = ({ category }: { category: Category }) => {
   return category?.subcategories?.map((subcategory: Subcategory, subIndex: number) => (
     <>
       <ul key={subIndex}>
-        {typeof subcategory.price === 'number' ? (
+        {typeof subcategory.price === 'number' || category.category === 'Pizzas' ? (
           <li><h4>{subcategory.name}</h4>
-            <span>${subcategory.price}</span>
+            {typeof subcategory.price === 'number' && <span>${subcategory.price}</span>}
           </li>
         ) : (
           <ul>

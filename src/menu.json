@@ -110,10 +110,6 @@
           "price": 7500
         },
         {
-          "name": "Vino Blanco Lata",
-          "price": 6500
-        },
-        {
           "name": "Vino Blanco Botella",
           "price": 14000
         },
@@ -204,16 +200,6 @@
           ],
           "items": [
             {
-              "name": "Venom",
-              "image": "venom.gif",
-              "description": "Burger, cebolla, provoleta y tomate."
-            },
-            {
-              "name": "Spiderman",
-              "image": "spiderman.gif",
-              "description": "Burger, cheddar, panceta y cebolla de verdeo."
-            },
-            {
               "name": "Wolverine",
               "image": "wolverine.png",
               "description": "Burger, jamón, mozzarella, morrón dulce y huevo."
@@ -221,12 +207,7 @@
             {
               "name": "Capitana Marvel",
               "image": "capitana.png",
-              "description": "Burger, mozzarella, tomate, lechuga y ciboulette."
-            },
-            {
-              "name": "Deadpool",
-              "image": "deadpool.png",
-              "description": "Burger, cheddar, american ketchup Kansas, tomate y salsa picante."
+              "description": "Burger, mozzarella, tomate, lechuga y cebolla."
             },
             {
               "name": "Nick Fury",
@@ -234,44 +215,14 @@
               "description": "Burger, mozzarella, queso azul y american ketchup Kansas."
             },
             {
-              "name": "Dr. Strange",
-              "image": "strange.gif",
-              "description": "Burger, mozzarella, tomate confitado, albahaca y aceitunas."
-            },
-            {
-              "name": "Rocket",
-              "image": "rocket.png",
-              "description": "Queso crema, rúcula y panceta."
-            },
-            {
               "name": "Hulk",
               "image": "hulk.gif",
               "description": "Burger, cheddar, panceta y cebolla caramelizada."
             },
             {
-              "name": "Capitan America",
-              "image": "capitan.webp",
-              "description": "Burger, american ketchup Kansas, mozzarella, jamón y morrón dulce."
-            },
-            {
               "name": "Iron Man",
               "image": "iron.png",
               "description": "Burger, jamón, provoleta, tomate, lechuga y cebolla caramelizada."
-            },
-            {
-              "name": "Thor",
-              "image": "thor.png",
-              "description": "Burger, manteca de ajo, cheddar, panceta y cebolla caramelizada."
-            },
-            {
-              "name": "Stan Lee",
-              "image": "stan.gif",
-              "description": "Burger y cebolla caramelizada."
-            },
-            {
-              "name": "Thanos",
-              "image": "thanos.png",
-              "description": "Burger, doble cheddar."
             }
           ]
         }
@@ -307,19 +258,19 @@
             },
             {
               "name": "Bomberman",
-              "description": "Pizza bomba, sabrosa, salsa de tomate, mozzarella, papas fritas, panceta, huevos fritos y aceitunas.",
+              "description": "Pizza bomba, sabrosa, salsa de tomate, mozzarella, panceta, huevos fritos y aceitunas.",
               "image": "bomber.gif",
               "price": 20500
             },
             {
               "name": "Simpsons",
-              "description": "Salsa de tomate, mozzarella, queso azul, provoleta, cheddar y aceitunas.",
+              "description": "Salsa de tomate, mozzarella, cremoso, roquefort, provolone y aceitunas.",
               "image": "simpsons.gif",
               "price": 20500
             },
             {
               "name": "Sunset Riders",
-              "description": "Manteca de ajo, mozzarella, panceta, provoleta y aceitunas.",
+              "description": "Manteca de ajo, mozzarella, panceta, provolone y aceitunas.",
               "image": "sunset.jpeg",
               "price": 20500
             },
@@ -352,16 +303,23 @@
       ]
     },
     {
-      "category": "Bonus Point",
-      "disabled": true,
+      "category": "Sanguche de Milanesa (acompañado de papas)",
+      "disabled": false,
       "items": [
         {
-          "name": "Empanadas",
-          "description": "Carne y jamón y queso.",
-          "price": {
-            "unidad": 0,
-            "docena": 0
-          }
+          "name": "Start",
+          "description": "Sandwich de milanesa de ternera en pan casero.",
+          "price": 13000
+        },
+        {
+          "name": "Continue",
+          "description": "Sandwich de milanesa de ternera con jamón y queso en pan casero.",
+          "price": 14500
+        },
+        {
+          "name": "Game Over",
+          "description": "Sandwich de milanesa de ternera con jamón, queso, lechuga, tomate y huevo en pan casero.",
+          "price": 16500
         }
       ]
     },
@@ -371,7 +329,7 @@
         {
           "name": "Para 2 personas",
           "price": 26000,
-          "description": "Seleccion premium de sabores (x2): salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero."
+          "description": "Selección premium de sabores (x2): salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero."
         },
         {
           "name": "Para 4 personas",
@@ -396,7 +354,7 @@
           "price": 16000
         },
         {
-          "name": "Mozzarelitas de Queso",
+          "name": "Mozzarelitas",
           "price": 15500
         }
       ]

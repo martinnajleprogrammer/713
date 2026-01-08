@@ -29,7 +29,7 @@
       flex-direction: column;
       background-color: #FAE9D8;
       opacity: 0.8;
-      border: 1px solid #555;
+      border: 2px solid #1c3e56;
       border-radius: 8px;
       padding: 20px;
       margin-top: 30px;
@@ -39,7 +39,7 @@
       display: inline;
       color: #1c3e56;
       font-size: 1.2em;
-      border-bottom: 1px solid #555;
+      border-bottom: 1px solid #1c3e56;
       padding-bottom: 5px;
       margin-bottom: 10px;
       text-transform: uppercase;
@@ -81,12 +81,12 @@
     h4 {
       margin: 0;
       font-size: 1em;
-      color: #00d9ff;
+      color: #2b896c;
     }
 
     span {
       font-weight: bold;
-      color: #00c98d;
+      color: #2b896c;
       margin-left: 10px;
     }
 
@@ -193,11 +193,19 @@
   width: 300px;
   aspect-ratio: 1;
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  background: gold;
+  background: linear-gradient(45deg, gold, orange);
+  box-shadow: 1px 1px 5px #ffaa0088;
   justify-content: center;
   display: flex;
   align-items: center;
   text-transform: uppercase;
+}
+
+.star .price {
+  font-size: 1em;
+  font-weight: bold;
+  color: #663300;
+  text-shadow: 1px 1px 2px #fff8dcaa;
 }
 
 
