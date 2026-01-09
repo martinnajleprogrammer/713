@@ -5,7 +5,7 @@
       "items": [
         {
           "name": "Clásicas",
-          "price": 6000
+          "price": 6500
         },
         {
           "name": "Lupuladas",
@@ -98,16 +98,12 @@
           "price": 7000
         },
         {
-          "name": "Caipiroska, Gin Tonic",
+          "name": "Caipiroska, Gin Tonic Nacional",
           "price": 7000
         },
         {
-          "name": "Gin Tonic (Frutos Rojos)",
-          "price": 7000
-        },
-        {
-          "name": "Gin Tonic (Tanqueray)",
-          "price": 7500
+          "name": "Gin Tonic Importado (Tanqueray ó similar)",
+          "price": 8000
         },
         {
           "name": "Vino Blanco Botella",
@@ -123,15 +119,15 @@
         },
         {
           "name": "Tequila",
-          "price": 9000
+          "price": 9500
         },
         {
-          "name": "Whisky White Horse",
-          "price": 10000
+          "name": "Whisky Nacional",
+          "price": 10500
         },
         {
-          "name": "Whisky Black Label - Johnnie Walker",
-          "price": 11500
+          "name": "Whisky Importado",
+          "price": 12000
         }
       ]
     },
@@ -157,6 +153,11 @@
               "image": "blanka.png",
               "name": "Blanka",
               "description": "Panceta crocante, cebolla de verdeo y salsa cheddar."
+            },
+            {
+              "image": "honda.gif",
+              "name": "Honda",
+              "description": "Salsa de tomate, salsa de mozzarella, queso azul y provoleta."
             }
           ]
         },
@@ -254,7 +255,7 @@
               "name": "Metal Slug",
               "description": "Salsa de tomate, mozzarella, jamón, morrón dulce y aceitunas.",
               "image": "metal.webp",
-              "price": 18500
+              "price": 19500
             },
             {
               "name": "Bomberman",
@@ -329,12 +330,12 @@
         {
           "name": "Para 2 personas",
           "price": 26000,
-          "description": "Selección premium de sabores (x2): salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero."
+          "description": "Selección premium de sabores (x2): salames tandileros (picado fino, grueso y colorado), jamón cocido, jamon crudo, panceta ahumada, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con 2 empanadas de carne, tomates cherry confitados, aceitunas, morrón dulce y pan casero."
         },
         {
           "name": "Para 4 personas",
           "price": 44000,
-          "description": "Selección premium de sabores (x4): salames tandileros (picado fino, grueso y colorado), jamón cocido, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con tomates cherry confitados, aceitunas, morrón dulce y pan casero."
+          "description": "Selección premium de sabores (x4): salames tandileros (picado fino, grueso y colorado), jamón cocido, jamon crudo, panceta ahumada, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con 4 empanadas de carne, tomates cherry confitados, aceitunas, morrón dulce y pan casero."
         }
       ]
     },
