@@ -47,6 +47,7 @@
 
     .category .description {
       text-transform: none;
+      word-wrap: break-word;
     }
     ul {
       list-style: none;
@@ -123,7 +124,12 @@
       span {
         margin-left: 0;
       }
-     
+     .stars {
+      flex-direction: column;
+     }
+      .star {
+        width: 100%;
+      }
     }
   }
   #root {
