@@ -329,12 +329,12 @@
       "items": [
         {
           "name": "Para 2 personas",
-          "price": 26000,
+          "price": 28000,
           "description": "Selección premium de sabores (x2): salames tandileros (picado fino, grueso y colorado), jamón cocido, jamon crudo, panceta ahumada, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con 2 empanadas de carne, tomates cherry confitados, aceitunas, morrón dulce y pan casero."
         },
         {
           "name": "Para 4 personas",
-          "price": 44000,
+          "price": 46000,
           "description": "Selección premium de sabores (x4): salames tandileros (picado fino, grueso y colorado), jamón cocido, jamon crudo, panceta ahumada, quesos pategrás, gouda, roquefort y queso de postre. Acompañados con 4 empanadas de carne, tomates cherry confitados, aceitunas, morrón dulce y pan casero."
         }
       ]
