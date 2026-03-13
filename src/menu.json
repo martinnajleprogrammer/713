@@ -188,15 +188,15 @@
           "prices": [
             {
               "type": "simple",
-              "value": 14000
-            },
-            {
-              "type": "doble",
               "value": 16000
             },
             {
-              "type": "triple",
+              "type": "doble",
               "value": 18000
+            },
+            {
+              "type": "triple",
+              "value": 20000
             }
           ],
           "items": [
@@ -234,7 +234,7 @@
       "subcategories": [
         {
           "name": "Clásicas",
-          "price": 18000,
+          "price": 19000,
           "items": [
             {
               "name": "Tetris",
@@ -255,49 +255,49 @@
               "name": "Metal Slug",
               "description": "Salsa de tomate, mozzarella, jamón, morrón dulce y aceitunas.",
               "image": "metal.webp",
-              "price": 19500
+              "price": 21000
             },
             {
               "name": "Bomberman",
               "description": "Pizza bomba, sabrosa, salsa de tomate, mozzarella, panceta, huevos fritos y aceitunas.",
               "image": "bomber.gif",
-              "price": 20500
+              "price": 22000
             },
             {
               "name": "Simpsons",
               "description": "Salsa de tomate, mozzarella, cremoso, roquefort y provolone.",
               "image": "simpsons.gif",
-              "price": 20500
+              "price": 22000
             },
             {
               "name": "Sunset Riders",
               "description": "Manteca de ajo, mozzarella, panceta, provolone y aceitunas.",
               "image": "sunset.jpeg",
-              "price": 20500
+              "price": 22000
             },
             {
               "name": "Mario Bros",
               "description": "Salsa de tomate, mozzarella, tomate, albahaca, ajo, oliva y aceitunas.",
               "image": "mario.gif",
-              "price": 19500
+              "price": 22000
             },
             {
               "name": "Space Invaders",
               "description": "Salsa de tomate, mozzarella, jamon crudo, tomate confitado y rúcula.",
               "image": "space.gif",
-              "price": 20500
+              "price": 22000
             },
             {
               "name": "Pacman",
               "description": "Salsa de tomate, mozzarella, papas fritas, huevo frito y aceitunas.",
               "image": "pacman.gif",
-              "price": 20500
+              "price": 22000
             },
             {
               "name": "1942",
               "description": "Salsa de tomate, mozzarella, calabresa y aceitunas.",
               "image": "1942.gif",
-              "price": 19500
+              "price": 20500
             }
           ]
         }
@@ -310,17 +310,17 @@
         {
           "name": "Start",
           "description": "Sandwich de milanesa de ternera en pan casero.",
-          "price": 13000
+          "price": 14000
         },
         {
           "name": "Continue",
           "description": "Sandwich de milanesa de ternera con jamón y queso en pan casero.",
-          "price": 14500
+          "price": 15500
         },
         {
           "name": "Game Over",
           "description": "Sandwich de milanesa de ternera con jamón, queso, lechuga, tomate y huevo en pan casero.",
-          "price": 16500
+          "price": 17500
         }
       ]
     },
@@ -412,7 +412,12 @@
         {
           "name": "Promo Papas",
           "description": "Porcion de papas + 2 pintas clásicas",
-          "price": 17000
+          "price": 19000
+        },
+        {
+          "name": "Promo Pizzas",
+          "description": "Pizza + 2 pintas clásicas",
+          "price": 26000
         }
       ]
     }
