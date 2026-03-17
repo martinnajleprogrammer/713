@@ -3,7 +3,7 @@ import type { Category, Subcategory, Item } from './types/menu';
 
 const Subcategories = ({ category }: { category: Category }) => {
   return category?.subcategories?.map((subcategory: Subcategory, subIndex: number) => (
-    <>
+    <div key={subIndex}>
       <ul key={subIndex}>
         {typeof subcategory.price === 'number' || category.category === 'Pizzas' ? (
           <li><h4>{subcategory.name}</h4>
@@ -30,7 +30,7 @@ const Subcategories = ({ category }: { category: Category }) => {
         </ul>
       </ul>
       {category.category === "Hamburguesas" && category.subcategories && category.subcategories[0].prices && <Stars prices={category.subcategories[0].prices} />}
-    </>
+    </div>
   ))
 };
 export default Subcategories;

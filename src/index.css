@@ -15,6 +15,12 @@
 body {
   font-family: 'Arial', sans-serif;
   background-color: #FAE9D8;
+  background-image: 
+    radial-gradient(ellipse at top, #fdf6e8 0%, transparent 50%),
+    radial-gradient(ellipse at bottom, #e8d4c0 0%, transparent 50%),
+    radial-gradient(circle at 20% 80%, rgba(28, 62, 86, 0.03) 0%, transparent 30%),
+    radial-gradient(circle at 80% 20%, rgba(255, 0, 204, 0.03) 0%, transparent 30%);
+  background-attachment: fixed;
   color: #2d725d;
   padding: 20px;
   margin: auto;

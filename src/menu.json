@@ -51,7 +51,7 @@
         },
         {
           "name": "PET",
-          "price": 1000
+          "price": 2000
         },
         {
           "name": "Barril Clásicos",
@@ -81,7 +81,7 @@
           "price": 3000
         },
         {
-          "name": "Speed",
+          "name": "Energizante",
           "price": 4000
         }
       ]
@@ -114,7 +114,7 @@
           "price": 24000
         },
         {
-          "name": "PROMO: Champagne Mumm Botella + 2 latas de speed",
+          "name": "PROMO: Champagne Mumm Botella + 2 latas de energizante",
           "price": 30000
         },
         {
@@ -153,11 +153,6 @@
               "image": "blanka.png",
               "name": "Blanka",
               "description": "Panceta crocante, cebolla de verdeo y salsa cheddar."
-            },
-            {
-              "image": "honda.gif",
-              "name": "Honda",
-              "description": "Salsa de tomate, salsa de mozzarella, queso azul y provoleta."
             }
           ]
         },
@@ -174,6 +169,11 @@
               "image": "ken.png",
               "name": "Ken",
               "description": "Mozzarella, tomate confitado, albahaca, aceitunas y oliva."
+            },
+            {
+              "image": "honda.gif",
+              "name": "Honda",
+              "description": "Salsa de tomate, salsa de mozzarella, queso azul y provoleta."
             }
           ]
         }
@@ -279,7 +279,7 @@
               "name": "Mario Bros",
               "description": "Salsa de tomate, mozzarella, tomate, albahaca, ajo, oliva y aceitunas.",
               "image": "mario.gif",
-              "price": 22000
+              "price": 21000
             },
             {
               "name": "Space Invaders",
@@ -297,7 +297,7 @@
               "name": "1942",
               "description": "Salsa de tomate, mozzarella, calabresa y aceitunas.",
               "image": "1942.gif",
-              "price": 20500
+              "price": 21000
             }
           ]
         }
