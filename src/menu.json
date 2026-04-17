@@ -5,6 +5,23 @@
       "items": [
         {
           "name": "Clásicas",
+          "price": 7000
+        },
+        {
+          "name": "Lupuladas",
+          "price": 7500
+        },
+        {
+          "name": "Especiales",
+          "price": 8500
+        }
+      ]
+    },
+    {
+      "category": "🍺 Cerveza - Media Pinta",
+      "items": [
+        {
+          "name": "Clásicas",
           "price": 6500
         },
         {
@@ -14,23 +31,6 @@
         {
           "name": "Especiales",
           "price": 8000
-        }
-      ]
-    },
-    {
-      "category": "🍺 Cerveza - Media Pinta",
-      "items": [
-        {
-          "name": "Clásicas",
-          "price": 6000
-        },
-        {
-          "name": "Lupuladas",
-          "price": 6500
-        },
-        {
-          "name": "Especiales",
-          "price": 7500
         }
       ]
     },
@@ -78,7 +78,7 @@
       "items": [
         {
           "name": "Agua / Saborizadas / Gaseosas",
-          "price": 3000
+          "price": 3500
         },
         {
           "name": "Energizante",
@@ -91,19 +91,19 @@
       "items": [
         {
           "name": "Fernet, Gancia, Campari, Cuba Libre, Destornillador, Daiquiri, Vermut",
-          "price": 7000
+          "price": 8000
         },
         {
           "name": "Negroni, Mojito",
-          "price": 7000
+          "price": 8000
         },
         {
           "name": "Caipiroska, Gin Tonic Nacional",
-          "price": 7000
+          "price": 8000
         },
         {
           "name": "Gin Tonic Importado (Tanqueray ó similar)",
-          "price": 8000
+          "price": 9000
         },
         {
           "name": "Vino Blanco Botella",
@@ -119,15 +119,15 @@
         },
         {
           "name": "Tequila",
-          "price": 9500
-        },
-        {
-          "name": "Whisky Nacional",
           "price": 10500
         },
         {
+          "name": "Whisky Nacional",
+          "price": 11500
+        },
+        {
           "name": "Whisky Importado",
-          "price": 12000
+          "price": 13000
         }
       ]
     },
