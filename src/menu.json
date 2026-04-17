@@ -83,6 +83,10 @@
         {
           "name": "Energizante",
           "price": 4000
+        },
+        {
+          "name": "Limonada Casera",
+          "price": 6000
         }
       ]
     },
