@@ -131,7 +131,7 @@
         },
         {
           "name": "Vino Blanco Botella",
-          "price": 14000
+          "price": 15000
         },
         {
           "name": "Champagne Mumm Botella",
@@ -160,7 +160,7 @@
       "subcategories": [
         {
           "name": "Clásicas",
-          "price": 12000,
+          "price": 13000,
           "items": [
             {
               "image": "bison.webp",
@@ -171,7 +171,7 @@
         },
         {
           "name": "Especiales",
-          "price": 14000,
+          "price": 15000,
           "items": [
             {
               "image": "blanka.png",
@@ -182,7 +182,7 @@
         },
         {
           "name": "Super Especiales",
-          "price": 14500,
+          "price": 15500,
           "items": [
             {
               "image": "guile.gif",
@@ -212,15 +212,15 @@
           "prices": [
             {
               "type": "simple",
-              "value": 16000
+              "value": 17000
             },
             {
               "type": "doble",
-              "value": 18000
+              "value": 19000
             },
             {
               "type": "triple",
-              "value": 20000
+              "value": 21000
             }
           ],
           "items": [
@@ -258,7 +258,7 @@
       "subcategories": [
         {
           "name": "Clásicas",
-          "price": 19000,
+          "price": 21000,
           "items": [
             {
               "name": "Tetris",
@@ -279,49 +279,49 @@
               "name": "Metal Slug",
               "description": "Salsa de tomate, mozzarella, jamón, morrón dulce y aceitunas.",
               "image": "metal.webp",
-              "price": 21000
+              "price": 23000
             },
             {
               "name": "Bomberman",
               "description": "Pizza bomba, sabrosa, salsa de tomate, mozzarella, panceta, huevos fritos y aceitunas.",
               "image": "bomber.gif",
-              "price": 22000
+              "price": 24000
             },
             {
               "name": "Simpsons",
               "description": "Salsa de tomate, mozzarella, cremoso, roquefort y provolone.",
               "image": "simpsons.gif",
-              "price": 22000
+              "price": 24000
             },
             {
               "name": "Sunset Riders",
               "description": "Manteca de ajo, mozzarella, panceta, provolone y aceitunas.",
               "image": "sunset.jpeg",
-              "price": 22000
+              "price": 24000
             },
             {
               "name": "Mario Bros",
               "description": "Salsa de tomate, mozzarella, tomate, albahaca, ajo, oliva y aceitunas.",
               "image": "mario.gif",
-              "price": 21000
+              "price": 23000
             },
             {
               "name": "Space Invaders",
               "description": "Salsa de tomate, mozzarella, jamon crudo, tomate confitado y rúcula.",
               "image": "space.gif",
-              "price": 22000
+              "price": 24000
             },
             {
               "name": "Pacman",
               "description": "Salsa de tomate, mozzarella, papas fritas, huevo frito y aceitunas.",
               "image": "pacman.gif",
-              "price": 22000
+              "price": 24000
             },
             {
               "name": "1942",
               "description": "Salsa de tomate, mozzarella, calabresa y aceitunas.",
               "image": "1942.gif",
-              "price": 21000
+              "price": 23000
             }
           ]
         }
@@ -334,17 +334,17 @@
         {
           "name": "Start",
           "description": "Sandwich de milanesa de ternera en pan casero.",
-          "price": 14000
+          "price": 16000
         },
         {
           "name": "Continue",
           "description": "Sandwich de milanesa de ternera con jamón y queso en pan casero.",
-          "price": 15500
+          "price": 17500
         },
         {
           "name": "Game Over",
           "description": "Sandwich de milanesa de ternera con jamón, queso, lechuga, tomate y huevo en pan casero.",
-          "price": 17500
+          "price": 19500
         }
       ]
     },
