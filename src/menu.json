@@ -9,11 +9,11 @@
         },
         {
           "name": "Lupuladas",
-          "price": 7500
+          "price": 8000
         },
         {
           "name": "Especiales",
-          "price": 8500
+          "price": 9000
         }
       ]
     },
@@ -39,15 +39,15 @@
       "items": [
         {
           "name": "Botellón Clásicos",
-          "price": 18000
+          "price": 20000
         },
         {
           "name": "Botellón Lupuladas",
-          "price": 22000
+          "price": 24000
         },
         {
           "name": "Botellón Especiales",
-          "price": 26000
+          "price": 28000
         },
         {
           "name": "PET",
@@ -55,19 +55,19 @@
         },
         {
           "name": "Barril Clásicos",
-          "price": 8000,
+          "price": 5000,
           "unit": "L",
           "isDisabled": true
         },
         {
           "name": "Barril Lupuladas",
-          "price": 10000,
+          "price": 8000,
           "unit": "L",
           "isDisabled": true
         },
         {
           "name": "Barril Especiales",
-          "price": 12000,
+          "price": 10000,
           "unit": "L",
           "isDisabled": true
         }
@@ -78,15 +78,19 @@
       "items": [
         {
           "name": "Agua / Saborizadas",
-          "price": 3500
+          "price": 4000
         },
         {
           "name": "Gaseosas",
-          "price": 4000
+          "price": 5000
         },
         {
           "name": "Energizante",
           "price": 4000
+        },
+        {
+          "name": "Limonada Casera",
+          "price": 6000
         },
         {
           "name": "Limonada Casera",
@@ -119,15 +123,15 @@
         },
         {
           "name": "Gin Tonic Importado (Tanqueray ó similar)",
-          "price": 9000
+          "price": 10000
         },
         {
           "name": "Caipiroska, Caipirinha",
-          "price": 9500
+          "price": 10000
         },
         {
           "name": "Daiquiri",
-          "price": 9500
+          "price": 10000
         },
         {
           "name": "Vino Blanco Botella",
@@ -143,15 +147,15 @@
         },
         {
           "name": "Tequila",
-          "price": 10500
+          "price": 11000
         },
         {
           "name": "Whisky Nacional",
-          "price": 11500
+          "price": 12000
         },
         {
           "name": "Whisky Importado",
-          "price": 13000
+          "price": 15000
         }
       ]
     },
