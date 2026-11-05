@@ -3,6 +3,7 @@ export type Item = {
   description?: string; // Make descripcion optional to match the data structure
   image?: string;
   disabled?: boolean;
+  highlight?: boolean; // Destaca el ítem con recuadro
   price?: number | { [key: string]: number; };
   unit?: string; // Add unidad property to match the data structure
 };

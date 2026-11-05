@@ -151,10 +151,78 @@
      margin-left: 1em;
    }
 
+   /* Ítem destacado (ej. Fernet) */
+   li.highlight {
+     border: 2px solid #1a6fd8;
+     border-radius: 8px;
+     background-color: #dcebfc;
+     padding: 10px 12px;
+     margin: 14px 0;
+     font-size: 1.15em;
+     animation: highlight-glow 2.5s ease-in-out infinite alternate;
+   }
+
+   li.highlight:hover {
+     background-color: #cde2fa;
+     padding-left: 16px;
+   }
+
+   li.highlight .foodname {
+     color: #1a6fd8;
+     font-weight: 900;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+   }
+
+   li.highlight .foodname::before {
+     content: '★ ';
+   }
+
+   li.highlight span {
+     color: #1a6fd8;
+   }
+
+   @keyframes highlight-glow {
+     from {
+       box-shadow: 0 0 4px rgba(26, 111, 216, 0.25);
+     }
+
+     to {
+       box-shadow: 0 0 14px rgba(26, 111, 216, 0.5);
+     }
+   }
+
+   /* Ítems con descripción: columnas fijas (nombre | descripción | precio) */
+   li.with-desc {
+     display: grid;
+     grid-template-columns: minmax(10em, 22%) 1fr auto;
+     column-gap: 1em;
+   }
+
+   li.with-desc .desc {
+     text-align: left;
+     margin-left: 0;
+   }
+
+   li.with-desc .foodname::after {
+     content: ':';
+   }
+
+   li.with-desc .foodname {
+     display: flex;
+     align-items: center;
+   }
+
+   li.with-desc .foodname img {
+     width: 30px;
+     margin-right: 8px;
+   }
+
    @media (max-width: 600px) {
      li {
        flex-direction: column;
        align-items: flex-start;
+       text-align: left;
      }
 
      span {
@@ -172,6 +240,16 @@
 
      span {
        margin-left: 0;
+     }
+
+     li.with-desc {
+       grid-template-columns: 1fr;
+       row-gap: 2px;
+       text-align: left;
+     }
+
+     li.with-desc .desc {
+       margin-left: 1em;
      }
 
      .stars {

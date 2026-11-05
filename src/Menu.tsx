@@ -20,9 +20,11 @@ const Menu = () => {
               <Subcategories category={category}></Subcategories> : (
                 <ul>
                   {category?.items?.map((item: Item, itemIndex: number) => (
-                    !item.disabled && (<li key={itemIndex}>
-                      {item.image && <img src={`/assets/icons/${item.image}`} alt={item.name} width={40}>{item.name}</img>}
-                      {<div className="foodname">{item.name}</div>}
+                    !item.disabled && (<li key={itemIndex} className={[item.description && 'with-desc', item.highlight && 'highlight'].filter(Boolean).join(' ') || undefined}>
+                      <div className="foodname">
+                        {item.image && <img src={`/assets/icons/${item.image}`} alt={item.name} width={40} />}
+                        {item.name}
+                      </div>
                       {item.description && <div className="desc">{item.description}</div>}
                       {typeof item.price === 'number' ? (
                         <span>${item.price}{item.unit ? `/${item.unit}` : ''}</span>
